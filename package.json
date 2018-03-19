@@ -1,0 +1,21 @@
+{
+  "name": "performanced",
+  "version": "0.0.1",
+  "description": "Simple performance monitor service.",
+  "main": "index.js",
+  "repository": "git@github.com:mdbarr/performanced.git",
+  "author": "Mark Barr <mbarr@onshape.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2"
+  },
+  "scripts": {
+    "fix": "./node_modules/.bin/eslint --fix *.js **/*.js || exit 0",
+    "lint": "./node_modules/.bin/eslint *.js **/*.js || exit 0"
+  }
+}
